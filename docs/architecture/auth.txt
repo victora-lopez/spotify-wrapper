@@ -1,0 +1,4 @@
+To Do:
+-Create Spotify client class
+-Create connection to spotify api by passing api_token
+-Handle invalid credentials and other exceptions

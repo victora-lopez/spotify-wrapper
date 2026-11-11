@@ -1,0 +1,12 @@
+What wrapper needs to perform:
+    -Create a reusable class that instantiates a connection to the Spotify web api
+        -class initialization fetches token and stores it
+            -check if token is still valid
+                -if invalid refetch token
+            -handle invalid credentials
+        -implement functionality for different endpoints
+            -create models for different data that can be obtained for web api
+                -e.g. Pydantic Artist class for Artist data, Album for album data, etc.
+            -ensure these models and api connections are organized neatly in different directories
+    -the reusable class should serve as the interface to the endpoints
+        -think about file structure
